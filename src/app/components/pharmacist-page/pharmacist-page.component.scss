@@ -1,0 +1,21 @@
+.outer{
+  .inner-ele{
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    .inner-left-patient-wait-sec{
+      background-color: red;
+      height: 100vh;
+      flex: 1;
+    }
+
+    .inner-right-rest-ele{
+
+      background-color: green;
+      height:auto;
+      flex:3;
+    }
+  }
+}

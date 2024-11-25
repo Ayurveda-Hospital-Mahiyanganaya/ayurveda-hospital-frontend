@@ -1,0 +1,9 @@
+<div class="outer" [ngStyle]="{ 'background-color': backgroundColor }">
+  <div class="inner-left">
+    <label id="label-upper">{{ leftLabel }}</label>
+    <label id="label-below" [ngStyle]="{'color':IconColor}" >{{ leftValue }}</label>
+  </div>
+  <div class="inner-right" [ngStyle]="{'background-color':IconColor}">
+    <i class="fa-solid fa-calendar-check"></i>
+  </div>
+</div>
